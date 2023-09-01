@@ -1,6 +1,9 @@
-/* Defina o fundo vermelho para toda a página */
 body {
   background-color: rgb(108, 1, 230);
+}
+
+body {
+  background-color: rgba(7, 206, 241, 0.5);
 }
 
 /* Centralize a primeira foto */
