@@ -1,11 +1,14 @@
-/* Centralize a primeira foto e defina o fundo como vermelho */
+/* Defina o fundo vermelho para toda a página */
+body {
+  background-color: rgb(108, 1, 230);
+}
+
+/* Centralize a primeira foto */
 #imagem {
-    text-align: center;
-    background-color: rgb(116, 2, 223);
-  }
-  
-  #imagem img {
-    display: block;
-    margin: 0 auto;
-  }
-  
+  text-align: center;
+}
+
+#imagem img {
+  display: block;
+  margin: 0 auto;
+}
