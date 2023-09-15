@@ -64,7 +64,7 @@ figure img{
   border-radius: 50%;
 }
 .rodape{
-  position: fixed;
+  /*position: fixed;*/
   left: 0;
   bottom: 0;
   width: 100%;
@@ -104,3 +104,18 @@ td{
   text-transform: uppercase;
       font-size: 20px;
 }
+/*BOX MODEL INICIO*/
+.boxmodel{
+  width: 320px;
+  padding: 10px;
+  border: 5px solid #0f0000;
+  margin: auto;
+}
+.ti{
+  text-align: center;
+}
+.botao{
+  float: right;
+  padding: 30px;
+}
+/*BOX MODEL FIM*/
