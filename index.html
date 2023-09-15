@@ -3,60 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--REFERE-SE AO TEMA 05 – FORMULÁRIOS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.cs" rel="stylesheet">
-    <!--REFERE-SE AO TEMA 05 – FORMULÁRIOS-->
-    <title>Perfil do  Nicholas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">  
+    <title>Perfil do Jose</title>
 </head>
 <body>
+    <div class="container">
     <!--REFERE-SE AO TEMA 06 – CSS (Cascating Styles Sheets – Folhas de Estilo em Cascata)-->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!--REFERE-SE AO TEMA 06 – CSS (Cascating Styles Sheets – Folhas de Estilo em Cascata)-->
-    
-    <!--REFERE-SE AO TEMA 05 – FORMULÁRIOS-->
-    <div class="container">
-    <!--REFERE-SE AO TEMA 05 – FORMULÁRIOS-->
-        <div class="displayBotao">
-            <p id="demo"></p>
-        </div>
-        <div class="botao">
-        </div>
-        <div id="cabecalho">
-            <p></i></p>
-        </div>
-        <main> 
-            <div id="imagem">
-                <img src="https://i.postimg.cc/QNnYj2JB/Nicholas-2-0-removebg-preview.png" alt="Perfil Nicholas">
-                <!--<img src="https://i.postimg.cc/FHvjm2kB/mr-bean-cke-removebg-preview.png" alt="Perfil Nicholas">-->
-                <!--<img src="https://i.postimg.cc/kM2jgCwY/barbie.jpg" alt="Perfil Nicholas">-->
-            </div><BR />
-                <div>
-                    <table border="1">
+
+    <!--REFERE-SE AO TEMA 06 – CSS (Cascating Styles Sheets – Folhas de Estilo em Cascata)-->  
+       
+            <p id="cabecalho">Este será o meu perfil descrito na matéria <i>Interface para Web I</i>, 3º Bimestre do curso INFNET.</p>
+       
+        <main>              
+                        <div id="imagem">
+                            <img src="https://i.postimg.cc/QNnYj2JB/Nicholas-2-0-removebg-preview.png" alt="Sua Imagem">
+                        </div>
+                <!--<img src="https://i.postimg.cc/FHvjm2kB/mr-bean-cke-removebg-preview.png" alt="Perfil Jose">-->
+                <!--<img src="https://i.postimg.cc/kM2jgCwY/barbie.jpg" alt="Perfil Jose">-->          
+               
+                <p class="centro">Algo sobre mim...</p>    
+                <table id="tabela" border="1">
                         <tbody>
-                            <caption>ALGO SOBRE MIM...</caption>
-                            <!--<tr style="text-transform: uppercase; font-weight: bold; color:  #c26861; ">-->
-                                <tr>
+                           
+                            <!--<tr style="text-transform: uppercase; font-weight: bold; color:  #c26861; ">-->                                                          
+                                <tr>                                                                                                                
                                     <th>Nome</th>
                                     <th>Idade</th>
                                     <th>Comida</th>
                                     <th>Filme</th>
                                     <th>Serie</th>
-                                </tr>
-                                <tr>
+                                </tr>                                                            
+                            <tr id="eu">
                                     <td>Nicholas</td>
                                     <td>17</td>
                                     <td>cachorro quente</td>
-                                    <td>Vingadores Ultimato</td>
+                                    <td>VingadoresUltimato</td>
                                     <td>supernatural</td>
                                 </tr>
                         </tbody>
-                    </table>
-                </div><br />
+                    </table><br />
                 <div>
-                    <table border="1">
-                        <tbody>
-                            <caption>Algumas TAGS HTML que aprendi no curso</caption>
+                    <p class="centro">ALGUMAS TAGS HTML QUE APRENDI NO CURSO</p>
+                    <table id="tabela" border="1">
+                        <tbody>                          
                                 <tr>
                                     <th>h1</th>
                                     <th>table</th>
@@ -117,8 +107,8 @@
                             <label for="pnome">Primeiro Nome:</label><br>
                             <input type="text" id="pnome" nome="pnome" value="Nicholas"><br><br>
                             <label for="unome">Sobrenome:</label><br>
-                            <input type="text" id="unome" name="unome" value="Alberto"><br>
-                                    
+                            <input type="text" id="unome" name="unome" value="Maia"><br>
+                                   
                                 <p>Comentários:<small><br />Não precisa comentar, é só um exemplo:</small></p>
                                     <textarea rows="5" cols="30"></textarea><br />
                                     <input type="submit" value="Enviar">
@@ -157,7 +147,7 @@
                             </fieldset>
                         </form>
                     </div>
-                    
+                   
                     <p>Nos estamos acostumado a ver a tag &ltimg&gt hoje vamos aprender mais um elemento, é o &ltfigure&gt e o &ltfigcaption&gt.</p>
                     <p>Um é usado para imagem e outro para colocar uma espécie de informação desta imagem. Vejamos...</p>
 
@@ -189,9 +179,9 @@
                       <label for="css">CSS</label><br>
                       <input type="radio" id="javascript" name="ling-favorita" value="JavaScript">
                       <label for="javascript">JavaScript</label>
-                    
+                   
                         <br>  
-                    
+                   
                         <p>Por favor selecione a sua idade:</p>
                         <input type="radio" id="idade1" name="age" value="30">
                         <label for="idade1">13 - 30</label><br>
@@ -211,7 +201,7 @@
                                 <small>Digite alguns numeros para ver..</small>
                         </form><hr/>
                     </div>
-                    
+                   
                     <p>Opção usando um input tipo <b>COLOR</b> (Cores)...</p>
 
                     <form>
@@ -233,8 +223,7 @@
                     <form>
                         Ano de Nascimeto:
                         <small>Selecione o ano de seu nascimento, obs: vc pode digitar tbm se quiser.</small>
-                        <input type="number" name="anoNascimeto" required min="1910" max="2026" step="1">
-            </footer>
+                        <input type="number" name="anoNascimeto" required min="1910" max="2026" step="1">          
                 </form><hr />
 
                     <form>
@@ -246,13 +235,17 @@
                         <p>Opção usando um input tipo <b>TIME</b> (Hora)...</p>
                         <input type="time" name="horaConsulta">
                     </form><hr />
-                </div> 
+                </div>
      </main>
-        <footer class="footer">
-                <p>Autor: Nicholas Alberto De Souza Coelho</p>
-                <p><a href="mailto:nicholasalbertocoelho@gmail.com">nicholasalbertocoelho@gmail.com</a></p>
+        <footer class="rodape">
+                <p>Autor: Nicholas Alberto de Souza Coelho</p>
+                <p><a href="mailto:"> Nicholas Alberto de Souza Coelho</a></p>
         </footer>
         <script defer src="script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    </div>    
   </body>
 </html>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+ <keygen> <h3></h3>
